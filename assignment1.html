@@ -9,9 +9,11 @@
     *{
       margin:0;
 			padding:0;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     body{
       background-image: url(banner.jpg);
+      background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
       background-attachment: fixed;
@@ -20,7 +22,7 @@
     .page-wrapper{
       display: grid;
       grid-template-rows: 830px 400px 100px;
-      grid-template-areas:"header"
+      grid-template-areas:"header" 
                           "main"
                           "footer";
     
@@ -31,7 +33,6 @@
       grid-area: header;
       text-align: center;
       padding-top: 350px;
-      margin-right: 50px;
       font-size: 40px;
       padding-left: 200px;
       max-height: 830px;
@@ -41,7 +42,7 @@
     .sidebar{
       position: fixed;
       background-color: white;
-      width: 200px;
+      width: 13%;
       height: 100%;
       padding-top: 300px;
       padding-left:60px;
@@ -52,36 +53,46 @@
       list-style: none;
       position: relative;
       line-height: 20px;
-      width:110px;
+      width:120px;
       text-align: center;
       margin: 10px;
       padding-top: 5px;
       padding-bottom: 5px;
-      font-size: 18px;
+      font-size:18px;
       color:white;
-      background-color:wheat;
     }
 
-    li:hover{
-      background-color:brown
+    a:link{
+      text-decoration: none;
+      color:black
+    }
+
+    a:visited{
+      text-decoration: none;
+      color: darkslateblue;
+    }
+    ul li:hover{
+      background-color:burlywood;
     }
 
     .main{
       grid-area: main;
       position: relative;
-      background-color: rgb(169, 239, 215);
+      background-color:blanchedalmond;
       opacity: 0.8;
-      margin-right: 50px;
       max-width: 1300px;
-      padding-left:300px;
+      padding-left:260px;
+      padding-top: 50px;
+      text-align: center;
     }
 
     .footer{
       grid-area: footer;
-      background-color:blanchedalmond;
+      background-color:darkgrey;
       opacity: 0.8;
-      margin-right: 50px;
       padding-left:300px;
+      padding-top: 30px;
+      text-align: center;
     }
 
   </style>
@@ -90,7 +101,7 @@
   <div class="page-wrapper">
 
     <div class="header">
-      <h1>COM5961 YATING's Effort</h1>
+      <h1>COM5961 YATING's Works</h1>
     </div>
 
     <div class="sidebar">
@@ -105,11 +116,12 @@
 
     <div class="main">
       <h4>Assignment1</h4>
-      <p>This is the first assignment of </p>
+      <br>
+      <p>This is the first assignment of the course COMM5961 Data-Driven Product Design and</p>
     </div>
 
     <div class="footer">
-         <p>Email: 1155178369@link.cuhk.edu.hk</p>
+         <p>Contact Info<br>Email: 1155178369@link.cuhk.edu.hk</p>
     </div>
 
   </div>
