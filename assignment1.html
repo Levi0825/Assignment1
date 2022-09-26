@@ -14,37 +14,57 @@
     .page-wrapper{
       display: grid;
       grid-template-columns: 17% 83%;
-      grid-template-areas:"head banner";
+      grid-template-rows: 80% 20%;
+      grid-template-areas:"head banner"
+                          "head footer";
     }
 
     .head{
+      grid-area: head;
       border-style: solid;
-      padding-top: 200px;
-      padding-left:70px;
+      padding-top: 300px;
+      padding-left:60px;
     }
 
-    ul{
+    ul li{
       list-style: none;
       position: relative;
-      line-height: 50px;
-      width:100%;
+      line-height: 20px;
+      width:110px;
       text-align: left;
-      padding-top: 20px;
+      margin: 10px;
+      padding-top: 5px;
+      padding-bottom: 5px;
       font-size: 18px;
-      color: darkorange;
+      color:white;
+      background-color:wheat;
+    }
+
+    li:hover{
+      background-color:brown
     }
  
+    .logo{
+      position: relative;
+      left:20px;
+      top:300px;
+    }
+
     .banner .pic{
       grid-area: banner;
       border-style: solid;
     }
 
+    .footer{
+      grid-area: footer;
+    }
 
   </style>
 </head>
 <body>
   <div class="page-wrapper">
-    <nav class="head">
+
+    <div class="head">
       <ul>
         <li><a href="">Assignment1</a></li>
         <li><a href="">Assignment2</a></li>
@@ -52,12 +72,17 @@
         <li><a href="">Assignment4</a></li>
         <li><a href="">Assignment5</a></li>
       </ul>
-    </nav>
+
+      <a href="" class="logo"><img scr="logo.png" alt="logo"></a>
+    </div>
 
     <div class="banner">
       <div class="pic"><img src="banner.jpg" width="100%" height="auto"></div>
     </div>
 
+    <div class="footer">
+         <p>Email: 1155178369@link.cuhk.edu.hk</p>
+    </div>
   </div>
 </body>
 </html>
