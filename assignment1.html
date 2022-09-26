@@ -10,20 +10,42 @@
       margin:0;
 			padding:0;
     }
-  
-    .page-wrapper{
-      display: grid;
-      grid-template-columns: 17% 83%;
-      grid-template-rows: 80% 20%;
-      grid-template-areas:"head banner"
-                          "head footer";
+    body{
+      background-image: url(banner.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
     }
 
-    .head{
-      grid-area: head;
-      border-style: solid;
+    .page-wrapper{
+      display: grid;
+      grid-template-rows: 830px 400px 100px;
+      grid-template-areas:"header"
+                          "main"
+                          "footer";
+    
+    }
+
+
+    .header{
+      grid-area: header;
+      text-align: center;
+      padding-top: 350px;
+      margin-right: 50px;
+      font-size: 40px;
+      padding-left: 200px;
+      max-height: 830px;
+      color: aliceblue;
+    }
+
+    .sidebar{
+      position: fixed;
+      background-color: white;
+      width: 200px;
+      height: 100%;
       padding-top: 300px;
       padding-left:60px;
+      z-index: 9999;
     }
 
     ul li{
@@ -31,7 +53,7 @@
       position: relative;
       line-height: 20px;
       width:110px;
-      text-align: left;
+      text-align: center;
       margin: 10px;
       padding-top: 5px;
       padding-bottom: 5px;
@@ -43,20 +65,23 @@
     li:hover{
       background-color:brown
     }
- 
-    .logo{
-      position: relative;
-      left:20px;
-      top:300px;
-    }
 
-    .banner .pic{
-      grid-area: banner;
-      border-style: solid;
+    .main{
+      grid-area: main;
+      position: relative;
+      background-color: rgb(169, 239, 215);
+      opacity: 0.8;
+      margin-right: 50px;
+      max-width: 1300px;
+      padding-left:300px;
     }
 
     .footer{
       grid-area: footer;
+      background-color:blanchedalmond;
+      opacity: 0.8;
+      margin-right: 50px;
+      padding-left:300px;
     }
 
   </style>
@@ -64,25 +89,29 @@
 <body>
   <div class="page-wrapper">
 
-    <div class="head">
-      <ul>
-        <li><a href="">Assignment1</a></li>
-        <li><a href="">Assignment2</a></li>
-        <li><a href="">Assignment3</a></li>
-        <li><a href="">Assignment4</a></li>
-        <li><a href="">Assignment5</a></li>
-      </ul>
-
-      <a href="" class="logo"><img scr="logo.png" alt="logo"></a>
+    <div class="header">
+      <h1>COM5961 YATING's Effort</h1>
     </div>
 
-    <div class="banner">
-      <div class="pic"><img src="banner.jpg" width="100%" height="auto"></div>
+    <div class="sidebar">
+      <ul>
+        <li><a href="assignment1.html">Assignment1</a></li>
+        <li><a href="assignment2.html">Assignment2</a></li>
+        <li><a href="assignment3.html">Assignment3</a></li>
+        <li><a href="assignment4.html">Assignment4</a></li>
+        <li><a href="assignment5.html">Assignment5</a></li>
+      </ul>
+    </div>
+
+    <div class="main">
+      <h4>Assignment1</h4>
+      <p>This is the first assignment of </p>
     </div>
 
     <div class="footer">
          <p>Email: 1155178369@link.cuhk.edu.hk</p>
     </div>
+
   </div>
 </body>
 </html>
