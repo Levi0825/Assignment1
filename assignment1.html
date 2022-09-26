@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A1</title>
+  <style>
+    *{
+      margin:0;
+			padding:0;
+    }
+  
+    .page-wrapper{
+      display: grid;
+      grid-template-columns: 17% 83%;
+      grid-template-areas:"head banner";
+    }
+
+    .head{
+      border-style: solid;
+      padding-top: 200px;
+      padding-left:70px;
+    }
+
+    ul{
+      list-style: none;
+      position: relative;
+      line-height: 50px;
+      width:100%;
+      text-align: left;
+      padding-top: 20px;
+      font-size: 18px;
+      color: darkorange;
+    }
+ 
+    .banner .pic{
+      grid-area: banner;
+      border-style: solid;
+    }
+
+
+  </style>
+</head>
+<body>
+  <div class="page-wrapper">
+    <nav class="head">
+      <ul>
+        <li><a href="">Assignment1</a></li>
+        <li><a href="">Assignment2</a></li>
+        <li><a href="">Assignment3</a></li>
+        <li><a href="">Assignment4</a></li>
+        <li><a href="">Assignment5</a></li>
+      </ul>
+    </nav>
+
+    <div class="banner">
+      <div class="pic"><img src="banner.jpg" width="100%" height="auto"></div>
+    </div>
+
+  </div>
+</body>
+</html>
