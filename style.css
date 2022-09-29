@@ -52,18 +52,18 @@ ul li{
   padding-top: 10px;
   padding-bottom: 10px;
   font-size:18px;
-  color: #A0522D ;
 }
 
 a:link{
   text-decoration: none;
-  color:black
+  color:#A0522D;
 }
 
 a:visited{
   text-decoration: none;
-  color: #CD853F  ;
+  color:#D8B29F ;
 }
+
 ul li:hover{
   background-color:#F3E3CB;
   font-style: italic;
@@ -78,7 +78,7 @@ img{
   grid-area: main;
   position: relative;
   background-color:blanchedalmond;
-  opacity: 0.8;
+  opacity: 0.9;
   max-width: 1300px;
   padding-left:460px;
   padding-right: 200px;
