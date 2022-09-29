@@ -17,9 +17,7 @@ body{
   grid-template-areas:"header" 
                       "main"
                       "footer";
-
 }
-
 
 .header{
   grid-area: header;
@@ -34,24 +32,27 @@ body{
 .sidebar{
   position: fixed;
   background-color: white;
-  width: 13%;
+  color: #A0522D;
+  width: 17%;
   height: 100%;
-  padding-top: 300px;
-  padding-left:60px;
+  padding-top: 250px;
   z-index: 9999;
-}
+  text-align: center;
+  }
 
 ul li{
+  display: inline-block;
   list-style: none;
   position: relative;
+  top: -30px;
   line-height: 20px;
   width:120px;
   text-align: center;
   margin: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   font-size:18px;
-  color:white;
+  color: #A0522D ;
 }
 
 a:link{
@@ -61,10 +62,16 @@ a:link{
 
 a:visited{
   text-decoration: none;
-  color: darkslateblue;
+  color: #CD853F  ;
 }
 ul li:hover{
-  background-color:burlywood;
+  background-color:#FAF0E6;
+  font-style: italic;
+}
+
+img{
+  display: inline-block;
+  width: 130px;
 }
 
 .main{
@@ -73,14 +80,25 @@ ul li:hover{
   background-color:blanchedalmond;
   opacity: 0.8;
   max-width: 1300px;
-  padding-left:260px;
-  padding-top: 50px;
+  padding-left:460px;
+  padding-right: 200px;
+  padding-top: 100px;
   text-align: center;
+  color: #A0522D ;
+}
+
+.p1{
+  text-align: justify;
+}
+
+.p2{
+  font-style: italic;
 }
 
 .footer{
   grid-area: footer;
   background-color:darkgrey;
+  color: #F5F5F5   ;
   opacity: 0.8;
   padding-left:300px;
   padding-top: 30px;
