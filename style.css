@@ -14,9 +14,10 @@ body{
 .page-wrapper{
   display: grid;
   grid-template-rows: 830px 400px 100px;
-  grid-template-areas:"header" 
-                      "main"
-                      "footer";
+  grid-template-columns: 17% 83%;
+  grid-template-areas:"sidebar header" 
+                      "sidebar main"
+                      "sidebar footer";
 }
 
 .header{
@@ -24,14 +25,15 @@ body{
   text-align: center;
   padding-top: 350px;
   font-size: 40px;
-  padding-left: 200px;
   max-height: 830px;
   color: aliceblue;
 }
 
 .sidebar{
+  grid-area: sidebar;
   position: fixed;
   background-color: white;
+  opacity: 0.9;
   color: #A0522D;
   width: 17%;
   height: 100%;
@@ -46,7 +48,7 @@ ul li{
   position: relative;
   top: -30px;
   line-height: 20px;
-  width:120px;
+  width:140px;
   text-align: center;
   margin: 10px;
   padding-top: 10px;
@@ -64,9 +66,27 @@ a:visited{
   color:#D8B29F ;
 }
 
-ul li:hover{
-  background-color:#F3E3CB;
+.button:after {
+  position: absolute;
+  transition: 0.3s;
+  content: "";
+  width: 0;
+  left: 50%;
+  bottom: 0;
+  height: 3px;
+  background: #e49797;
+}
+
+.button:hover {
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color:#f6eee2;
   font-style: italic;
+}
+.button:hover:after {
+  width: 100%;
+  left: 0;
 }
 
 img{
@@ -80,11 +100,11 @@ img{
   background-color:blanchedalmond;
   opacity: 0.9;
   max-width: 1300px;
-  padding-left:460px;
+  padding-left:200px;
   padding-right: 200px;
-  padding-top: 100px;
+  padding-top: 80px;
   text-align: center;
-  color: #8B4513  ;
+  color: #8B4513 ;
 }
 
 .p1{
@@ -100,7 +120,6 @@ img{
   background-color:darkgrey;
   color: #F5F5F5   ;
   opacity: 0.8;
-  padding-left:300px;
   padding-top: 30px;
   text-align: center;
 }
