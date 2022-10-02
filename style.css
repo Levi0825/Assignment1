@@ -2,13 +2,13 @@
   margin:0;
   padding:0;
   font-family: new font2;
-  letter-spacing: 1px;
 }
 
 @font-face {
   font-family: 'new font2';
-  src: url(Futura-Medium-6.ttf);
+  src: url(MPLUS1p-Regular.ttf);
 }
+
 
 body{
   background-image: url(banner.jpg);
@@ -37,12 +37,12 @@ body{
 
 @font-face {
   font-family: 'new font';
-  src: url(October\ Rose\ -\ Personal\ Use.otf);
+  src: url(Kalam-Regular.ttf);
 }
 
 .head{
   font-family: new font;
-  font-size: 200px;
+  font-size: 100px;
 }
 
 .sidebar{
@@ -69,7 +69,7 @@ ul li{
   margin: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
-  font-size:20px;
+  font-size:18px;
 }
 
 a:link{
@@ -95,7 +95,7 @@ a:visited{
 
 .button:hover {
   cursor: pointer;
-  font-size: 23px;
+  font-size: 21px;
   border-radius: 5px;
   background-color:#f6eee2;
   font-style: italic;
@@ -118,7 +118,7 @@ img{
   max-width: 1300px;
   padding-left:200px;
   padding-right: 200px;
-  padding-top: 80px;
+  padding-top: 50px;
   text-align: center;
   color: #8B4513 ;
 }
@@ -132,13 +132,21 @@ img{
 }
 
 .p2{
+  border-style: solid;
   font-style: italic;
+  line-height: 37px;
+  margin-left: 350px;
+  margin-right: 350px;
+  border-radius: 50px;
+  font-style: bold;
+  border-color: #b0765b;
+  border-width: 2px;
 }
 
 .footer{
   grid-area: footer;
   background-color:white;
-  color: #626161   ;
+  color: #626161 ;
   opacity: 0.8;
   padding-top: 30px;
   text-align: center;
