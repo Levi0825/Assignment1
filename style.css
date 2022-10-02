@@ -20,7 +20,7 @@ body{
 
 .page-wrapper{
   display: grid;
-  grid-template-rows: 830px 400px 100px;
+  grid-template-rows: 830px 400px 150px;
   grid-template-columns: 17% 83%;
   grid-template-areas:"sidebar header" 
                       "sidebar main"
@@ -145,9 +145,24 @@ img{
 
 .footer{
   grid-area: footer;
+  position: relative;
   background-color:white;
   color: #626161 ;
   opacity: 0.8;
-  padding-top: 30px;
+  padding-top: 10px;
   text-align: center;
+}
+
+.icon1{
+  float: left;
+  position: relative;
+  left:28%;
+  top:30%;
+}
+
+.icon2{
+  float: left;
+  position: relative;
+  left: 40%;
+  top:30%;
 }
