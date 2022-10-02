@@ -131,16 +131,25 @@ img{
   text-align: justify;
 }
 
-.p2{
+#p2{
   border-style: solid;
   font-style: italic;
   line-height: 37px;
-  margin-left: 350px;
-  margin-right: 350px;
+  margin-left: 360px;
+  margin-right: 360px;
   border-radius: 50px;
-  font-style: bold;
-  border-color: #b0765b;
-  border-width: 2px;
+  border-color: #cea08c;
+  border-width: 1.5px;
+  font-size: 17px;
+}
+
+#p2:hover{
+  background-color:rgb(236, 196, 122);
+  font-size: 18px;
+}
+
+#p2 a{
+  color:rgb(230, 117, 11);
 }
 
 .footer{
@@ -165,4 +174,12 @@ img{
   position: relative;
   left: 40%;
   top:20%;
+}
+
+#github a{
+  color:#626161;
+}
+
+#github a:hover{
+  color:#D8B29F
 }
