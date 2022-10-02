@@ -1,8 +1,15 @@
 *{
   margin:0;
   padding:0;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: new font2;
+  letter-spacing: 1px;
 }
+
+@font-face {
+  font-family: 'new font2';
+  src: url(Futura-Medium-6.ttf);
+}
+
 body{
   background-image: url(banner.jpg);
   background-size: cover;
@@ -23,10 +30,19 @@ body{
 .header{
   grid-area: header;
   text-align: center;
-  padding-top: 350px;
-  font-size: 40px;
+  padding-top: 320px;
   max-height: 830px;
   color: aliceblue;
+}
+
+@font-face {
+  font-family: 'new font';
+  src: url(October\ Rose\ -\ Personal\ Use.otf);
+}
+
+.head{
+  font-family: new font;
+  font-size: 200px;
 }
 
 .sidebar{
@@ -37,7 +53,7 @@ body{
   color: #A0522D;
   width: 17%;
   height: 100%;
-  padding-top: 250px;
+  padding-top: 230px;
   z-index: 9999;
   text-align: center;
   }
@@ -48,12 +64,12 @@ ul li{
   position: relative;
   top: -30px;
   line-height: 20px;
-  width:140px;
+  width:150px;
   text-align: center;
   margin: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
-  font-size:18px;
+  font-size:20px;
 }
 
 a:link{
@@ -79,7 +95,7 @@ a:visited{
 
 .button:hover {
   cursor: pointer;
-  font-size: 20px;
+  font-size: 23px;
   border-radius: 5px;
   background-color:#f6eee2;
   font-style: italic;
@@ -107,6 +123,10 @@ img{
   color: #8B4513 ;
 }
 
+.head2{
+  font-family: new font2;
+}
+
 .p1{
   text-align: justify;
 }
@@ -117,8 +137,8 @@ img{
 
 .footer{
   grid-area: footer;
-  background-color:darkgrey;
-  color: #F5F5F5   ;
+  background-color:white;
+  color: #626161   ;
   opacity: 0.8;
   padding-top: 30px;
   text-align: center;
