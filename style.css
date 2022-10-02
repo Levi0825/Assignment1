@@ -20,7 +20,7 @@ body{
 
 .page-wrapper{
   display: grid;
-  grid-template-rows: 830px 400px 150px;
+  grid-template-rows: 830px 400px 120px;
   grid-template-columns: 17% 83%;
   grid-template-areas:"sidebar header" 
                       "sidebar main"
@@ -157,12 +157,12 @@ img{
   float: left;
   position: relative;
   left:28%;
-  top:30%;
+  top:20%;
 }
 
 .icon2{
   float: left;
   position: relative;
   left: 40%;
-  top:30%;
+  top:20%;
 }
