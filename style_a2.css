@@ -20,7 +20,7 @@ body{
 
 .page-wrapper{
   display: grid;
-  grid-template-rows: 830px 500px 120px;
+  grid-template-rows: 830px 900px 120px;
   grid-template-columns: 15% 85%;
   grid-template-areas:"sidebar header" 
                       "sidebar main"
@@ -118,7 +118,7 @@ img{
   max-width: 1300px;
   padding-left:200px;
   padding-right: 200px;
-  padding-top: 100px;
+  padding-top: 50px;
   text-align: center;
   color: #8B4513 ;
 }
