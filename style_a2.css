@@ -20,7 +20,7 @@ body{
 
 .page-wrapper{
   display: grid;
-  grid-template-rows: 830px 900px 120px;
+  grid-template-rows: 830px 3100px 120px;
   grid-template-columns: 15% 85%;
   grid-template-areas:"sidebar header" 
                       "sidebar main"
@@ -127,7 +127,7 @@ img{
   font-family: new font2;
 }
 
-.p1{
+.content{
   text-align: justify;
 }
 
@@ -182,4 +182,30 @@ img{
 
 #github a:hover{
   color:#D8B29F
+}
+
+
+.image img{
+  width: 500px;
+  margin-left: 220px;
+}
+
+.p1 img{
+  width:400px;
+  margin-left: 20px;
+}
+
+.form3{
+  width:200px;
+  margin-left: 200px
+}
+
+.form4{
+  width:222px;
+  margin-left: 50px;
+}
+
+.form5{
+  width:600px;
+  margin-left: 140px;
 }
