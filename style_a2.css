@@ -20,7 +20,7 @@ body{
 
 .page-wrapper{
   display: grid;
-  grid-template-rows: 830px 3100px 120px;
+  grid-template-rows: 830px 3200px 120px;
   grid-template-columns: 15% 85%;
   grid-template-areas:"sidebar header" 
                       "sidebar main"
@@ -208,4 +208,9 @@ img{
 .form5{
   width:600px;
   margin-left: 140px;
+}
+
+.formname{
+  font-size: 10px;
+  text-align: center;
 }
