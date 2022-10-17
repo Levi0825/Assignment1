@@ -188,6 +188,10 @@ img{
 .image img{
   width: 500px;
   margin-left: 190px;
+  border:solid;
+  border-color: #cea08c;
+  border-width: 3px;
+  padding: 10px;
 }
 
 .p1 img{
@@ -208,9 +212,20 @@ img{
 .form5{
   width:600px;
   margin-left: 140px;
+  border:solid;
+  border-color: #cea08c;
+  border-width: 3px;
+  padding: 10px;
 }
 
 .formname{
   font-size: 10px;
   text-align: center;
+  font-style: italic;
+}
+
+.form5name{
+  font-size: 14px;
+  text-align: center;
+  font-style: italic;
 }
