@@ -20,7 +20,7 @@ body{
 
 .page-wrapper{
   display: grid;
-  grid-template-rows: 830px 1200px 120px;
+  grid-template-rows: 830px 1400px 120px;
   grid-template-columns: 15% 85%;
   grid-template-areas:"sidebar header" 
                       "sidebar main"
@@ -187,12 +187,13 @@ img{
 }
 
 .img1{
-  width: 400px;
-  margin-left: 20px;
+  width: 300px;
+  margin-left: 80px
 }
 
 .img2{
-  width:430px;
+  width:320px;
+  margin-left: 20px
 }
 
 .content{
